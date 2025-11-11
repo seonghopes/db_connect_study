@@ -1,6 +1,6 @@
 ﻿namespace dbConnect
 {
-    partial class ExcuteScalar
+    partial class ExecuteScalar
     {
         /// <summary>
         /// Required designer variable.
@@ -70,7 +70,7 @@
             btbExit.UseVisualStyleBackColor = true;
             btbExit.Click += btbExit_Click;
             // 
-            // ExcuteScalar
+            // ExecuteScalar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -79,9 +79,9 @@
             Controls.Add(btnSearch);
             Controls.Add(label1);
             Controls.Add(tbTxt_NO);
-            Name = "ExcuteScalar";
-            Text = "ExcuteScalar";
-            Load += ExcuteScalar_Load;
+            Name = "ExecuteScalar";
+            Text = "ExecuteScalar";
+            Load += ExecuteScalar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

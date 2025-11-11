@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace dbConnect
 {
-    public partial class ExcuteScalar : Form
+    public partial class ExecuteScalar : Form
     {
-        public ExcuteScalar()
+        public ExecuteScalar()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace dbConnect
 
         SqlConnection Conn = new SqlConnection(ConnectionString);
 
-        private void ExcuteScalar_Load(object sender, EventArgs e)
+        private void ExecuteScalar_Load(object sender, EventArgs e)
         {
             try
             {
@@ -77,5 +77,7 @@ namespace dbConnect
         {
             Application.Exit();
         }
+
+      
     }
 }

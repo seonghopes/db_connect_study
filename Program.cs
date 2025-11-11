@@ -12,7 +12,8 @@ namespace dbConnect
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new DBCon());
-            Application.Run(new ListView());
+            Application.Run(new ExecuteNonQuery());
+            //Application.Run(new ListView());
         }
     }
 }
